@@ -1,0 +1,11 @@
+framework module peaq_iOS {
+  umbrella header "peaq_iOS.h"
+  export *
+
+  module * { export * }
+}
+
+module peaq_iOS.Swift {
+  header "peaq_iOS-Swift.h"
+  requires objc
+}
